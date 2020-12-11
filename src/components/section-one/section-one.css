@@ -1,0 +1,46 @@
+/* header, left-col-title pueden deberian ser removidos de la pagina principal. */
+
+.section-one {
+  display: flex;
+  margin-top: 50px;
+  justify-content: flex-start;
+  height: 70vh;
+}
+
+.header {
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.left-col-real-title {
+  font-size: 2rem;
+}
+
+.right-col-img {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .section-one {
+    height: 120vh;
+  }
+  .right-col-img {
+    order: -1;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .left-col-title {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .left-col-title {
+    text-align: center;
+  }
+  .right-col-img {
+    order: -1;
+  }
+}

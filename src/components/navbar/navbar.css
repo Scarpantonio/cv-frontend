@@ -1,0 +1,13 @@
+/* .logo {
+  margin-left: 50px;
+} */
+
+.navBar {
+  margin-left: 65px;
+}
+
+@media screen and (max-width: 700px) {
+  .navBar {
+    margin-left: 15px;
+  }
+}

@@ -4,6 +4,21 @@
 - el margen se lo teniamos que haber agregado a cada seccio  no a los items individuales. 
 */
 
+/* icons ////////////////////*/
+
+.github-icon {
+  width: 80%;
+  height: 80%;
+}
+
+.dev-icons {
+  width: 40px;
+  height: 40px;
+  color: black;
+}
+
+/*////////////////////*/
+
 * {
   font-family: "Montserrat", sans-serif;
 }
@@ -12,24 +27,73 @@
   background-color: white;
 }
 
-.section-one {
+img {
+  width: 80%;
+  max-width: 300px;
+}
+
+/* los section new tenemos que recontar las secciones para que tenga sentido donde la ubicamos.   */
+.section-new {
   display: flex;
   margin-top: 100px;
   justify-content: flex-start;
   height: 60vh;
 }
 
-/* section two styles */
+.section-two-title {
+  font-size: 16px;
+  background-color: lightblue;
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+}
+
+.section-five-title {
+  font-size: 16px;
+  background-color: lightblue;
+  text-align: center;
+  margin: 0;
+  padding-top: 50px;
+}
+
 .section-two {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: 40vh;
   background-color: lightblue;
   height: 40vh;
 }
 
-.technologies {
-  font-size: 20px;
+#container {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  /* grid-template-rows: 50px; */
+  grid-gap: 5px;
+  box-sizing: border-box;
+  height: 20vh;
+  width: 100%;
+  align-content: center;
+  background-color: #8ca0ff;
+  padding: 10px;
+}
+
+/* height: para juntar ambos containers
+padding-top: el margen del container del titulo
+*/
+/* .sec-two-title {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #333;
+  padding-top: 20px;
+  margin: 0;
+  color: white;
+} */
+
+#container > div {
+  background-color: #8ca0ff;
+  padding: 5px;
 }
 
 /* /// */
@@ -60,8 +124,13 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  height: 70vh;
+  height: 60vh;
   background-color: lightblue;
+}
+
+.icon-section-five {
+  /* padding: 20px; */
+  margin: 15px;
 }
 
 .p-sm {
@@ -78,8 +147,13 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  height: 50vh;
+  height: 60vh;
   background-color: lightblue;
+}
+
+/* Parrafo section siete */
+.p-section-seven {
+  max-width: 600px;
 }
 
 /* .footer {
@@ -110,71 +184,108 @@ p {
   padding-bottom: 20px;
 }
 
+/* sujeto a eliminación */
+.header {
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+/* Este es el margen que afecta todos los titulos*/
+
 .left-col-title {
   margin-left: 50px;
 }
 
+/* sujeto a eliminacion pertenece a section-one col */
 .left-col-real-title {
   font-size: 2rem;
 }
 
+/* subjet to be deleted because - section-one.css*/
 .right-col-img {
   text-align: center;
   font-family: "Raleway", sans-serif;
 }
 
-/* media to set order to header columns. */
+/* scroll menu styles ///////////*/
+/* paddig-top utilice to center items. */
 
-@media screen and (max-width: 700px) {
+div.scrollmenu {
+  background-color: lightblue;
+  overflow: auto;
+  white-space: nowrap;
+  height: 160px;
+  /* padding-top: 80px; */
+  text-align: center;
+}
+
+div.scrollmenu p {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+/* div.scrollmenu p:hover {
+  background-color: #777;
+} */
+/* //////////// */
+
+/* mobile displays, aqui es donde el texto se deberia centrar. Para todas las demas resoluciones el texto deberia ser el mismo.*/
+@media screen and (max-width: 414px) {
+  /* sujetos a ser eliminados por pertenecer a section-1 */
+  .left-col-title {
+    text-align: center;
+  }
   .right-col-img {
     order: -1;
   }
-  .left-col-title {
-    margin-left: 0;
+  .section-five {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  * {
     text-align: center;
+  }
+
+  .section-five {
+    height: 120vh;
+  }
+
+  .right-col-img {
+    order: -1;
+  }
+
+  .section-three {
+    height: 90vh;
+  }
+
+  .section-new {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* title sec-one top margin  */
+  .header {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .container {
+    overflow-x: auto;
+    max-width: 700px;
+  }
+
+  .left-col-title {
+    margin-left: 0px;
   }
 }
 
 /* no lo muestres hasta que el maximo sea 830px */
 /* @media screen and (mix-width: 830px) {
   
-} */
-
-/* .App {
-  text-align: center;
-}
-
-.logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 } */
