@@ -1,0 +1,14 @@
+/* .work-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+} */
+
+.work {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}

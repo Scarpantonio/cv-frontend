@@ -1,0 +1,13 @@
+/* margen establecido al footer */
+.footer-container {
+  margin-top: 100px;
+  height: 20vh;
+}
+
+#top-footer {
+  margin-top: 40px;
+}
+
+.p-footer {
+  font-size: 14px;
+}

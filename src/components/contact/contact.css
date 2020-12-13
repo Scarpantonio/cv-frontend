@@ -1,0 +1,32 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+
+.submit-btn {
+  align-self: center;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 100px;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .contact {
+    height: 40vh;
+  }
+  .contact-title {
+    margin: 20px;
+  }
+}

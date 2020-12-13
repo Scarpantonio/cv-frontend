@@ -7,14 +7,15 @@ const Navigationbar = () => {
   return (
     <div className="navBar">
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-        <Navbar.Brand className="logo" href="#home">
+        <Navbar.Brand className="logo" as={Link} to="/">
           Scarpantonio
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className="mr-auto">
-            <Nav.Link href="#about">about</Nav.Link>
-            <Nav.Link href="#work">work</Nav.Link>
+            <Nav.Link as={Link} to="/work">
+              work
+            </Nav.Link>
             <Nav.Link as={Link} to="/contact">
               contact
             </Nav.Link>
@@ -26,3 +27,7 @@ const Navigationbar = () => {
 };
 
 export default Navigationbar;
+
+// <Nav.Link as={Link} to="/about">
+//               about
+//             </Nav.Link>

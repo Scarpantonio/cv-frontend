@@ -1,5 +1,6 @@
 import React from "react";
 import { Image, Container, Row, Col, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 // import { Container, Col } from "react-bootstrap";
 import "./section-one.css";
 
@@ -12,7 +13,9 @@ const SectionOne = () => {
             <b>Let's Build Amazing Web Apps Together!</b>
           </h2>
           <p>I'm a full Stack web developer located in Denver, Colorado.</p>
-          <Button>Say Hello</Button>
+          <Button as={Link} to="/contact">
+            Say Hello!
+          </Button>
         </Col>
 
         <Col sm className="right-col-img">
