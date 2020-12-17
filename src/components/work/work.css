@@ -6,9 +6,122 @@
 } */
 
 .work {
-  margin-top: 15px;
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 10vh;
+  height: 40vh;
+}
+
+.btn {
+  border: 1px solid purple;
+  border-radius: 10px;
+}
+
+/* bc anterior background-image: linear-gradient(334.98deg, #0066cc -3.01%, #6627ff 76.16%); */
+.work-section-two {
+  background: #4776e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8e54e9,
+    #4776e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8e54e9,
+    #4776e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 10px;
+  margin-top: 150px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+
+.work-section-three {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  /* height: 40vh; */
+}
+
+.startup-section {
+  margin-top: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.work-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.work-sectiontwo-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 100px;
+  color: white;
+}
+
+.work-sectionthree-title {
+  text-align: center;
+  font-size: 1.5rem;
+  /* margin: 100px; */
+  color: black;
+}
+
+.p-subtitle {
+  font-size: 1rem;
+  line-height: 1.5em;
+  max-width: 650px;
+  font-weight: 500;
+}
+
+.msl-p-subtitle {
+  font-size: 1rem;
+  line-height: 1.5em;
+  max-width: 500px;
+}
+
+.msl-icons {
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+  color: #7510f7;
+}
+
+.work-dev-icons {
+  width: 35px;
+  height: 35px;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .work-section-two {
+    height: 80vh;
+  }
+
+  .work-title {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .work-section-two {
+    height: 60vh;
+  }
+
+  .work-sectiontwo-title {
+    margin: 20px;
+  }
+
+  .work-title {
+    margin: 20px;
+  }
 }

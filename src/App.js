@@ -1,7 +1,18 @@
+/** por hacer
+ *
+ * [] Desplegar work/contact todo hacia la derecha.
+ * [] Center submit button.
+ * [] Acomodar Navbar/footer
+ * [X] Cambiar los botones de color.
+ * [] Agregar animaciones.
+ * [] Download my resume deberia estar unido con el footer.
+ */
+
 import "./App.css";
 import { Container, Row, Col, Button, Nav } from "react-bootstrap";
 import Navigationbar from "./components/navbar/navbar";
 import Contact from "./components/contact/contact";
+import ContactMsl from "./components/contact-msl/Contact-msl";
 import Work from "./components/work/Work";
 import About from "./components/about/About";
 import Home from "./components/home/Home";
@@ -28,6 +39,7 @@ function App() {
         <Navigationbar />
         <Switch>
           <Route exact path={"/"} component={Home} />
+          <Route path="/contact-msl" component={ContactMsl} />
           <Route path="/contact" component={Contact} />
           <Route path="/work" component={Work} />
           <Route path="/about" component={About} />

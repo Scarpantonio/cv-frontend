@@ -17,51 +17,51 @@ import { FaVuejs, FaCss3Alt } from "react-icons/fa";
 export default function SectionTwo() {
   return (
     <div>
-      <h4 className="section-two-title">MY FULL STACK TOOLKIT...</h4>
+      <h4 className="section-two-title"> TECHNOLOGIES I LOVE TO USE...</h4>
       <div class="scrollmenu">
         <p>
           {" "}
-          <DiAtom className="dev-icons" />
+          <DiAtom className="section-two-dev-icons" />
         </p>
         <p>
           {" "}
-          <DiAngularSimple className="dev-icons" />
+          <DiAngularSimple className="section-two-dev-icons" />
         </p>
         <p>
           {" "}
-          <FaVuejs className="dev-icons" />
+          <FaVuejs className="section-two-dev-icons" />
         </p>
         <p>
           {" "}
-          <DiJavascript1 className="dev-icons" />
+          <DiJavascript1 className="section-two-dev-icons" />
         </p>
         <p>
           {" "}
-          <DiHtml5 className="dev-icons" />
+          <DiHtml5 className="section-two-dev-icons" />
         </p>
         <p>
           {" "}
-          <DiJqueryLogo className="dev-icons" />
+          <DiJqueryLogo className="section-two-dev-icons" />
         </p>
         <p>
           {" "}
-          <DiMongodb className="dev-icons" />
+          <DiMongodb className="section-two-dev-icons" />
         </p>
         <p>
           {" "}
-          <DiNodejsSmall className="dev-icons" />
+          <DiNodejsSmall className="section-two-dev-icons" />
         </p>
         <p>
           {" "}
-          <DiSass className="dev-icons" />
+          <DiSass className="section-two-dev-icons" />
         </p>
         <p>
           {" "}
-          <FaCss3Alt className="dev-icons" />
+          <FaCss3Alt className="section-two-dev-icons" />
         </p>
         <p>
           {" "}
-          <DiPhotoshop className="dev-icons" />
+          <DiPhotoshop className="section-two-dev-icons" />
         </p>
       </div>
     </div>

@@ -10,10 +10,13 @@ const SectionOne = () => {
       <Row>
         <Col className="left-col-title header">
           <h2 className="left-col-real-title">
-            <b>Let's Build Amazing Web Apps Together!</b>
+            Let's Build Amazing Web Apps Together!
           </h2>
-          <p>I'm a full Stack web developer located in Denver, Colorado.</p>
-          <Button as={Link} to="/contact">
+          <p>
+            I'm a passionate full Stack web developer located <br />
+            in Denver, Colorado.
+          </p>
+          <Button bsPrefix="super-btn" as={Link} to="/contact">
             Say Hello!
           </Button>
         </Col>

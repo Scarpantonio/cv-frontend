@@ -17,6 +17,12 @@
   color: black;
 }
 
+.dev-icons-home-page {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
 /*////////////////////*/
 
 * {
@@ -25,11 +31,6 @@
 
 .logo {
   background-color: white;
-}
-
-img {
-  width: 80%;
-  max-width: 300px;
 }
 
 /* los section new tenemos que recontar las secciones para que tenga sentido donde la ubicamos.   */
@@ -42,26 +43,12 @@ img {
 
 .section-two-title {
   font-size: 16px;
-  background-color: lightblue;
+  font-weight: 600;
+  background-color: #7510f7;
   text-align: center;
   margin: 0;
   padding: 50px;
-}
-
-.section-five-title {
-  font-size: 16px;
-  background-color: lightblue;
-  text-align: center;
-  margin: 0;
-  padding-top: 50px;
-}
-
-.section-two {
-  display: grid;
-  grid-template-columns: repeat(11, 1fr);
-  grid-template-rows: 40vh;
-  background-color: lightblue;
-  height: 40vh;
+  color: white;
 }
 
 #container {
@@ -102,12 +89,12 @@ padding-top: el margen del container del titulo
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70vh;
-
-  /* background-color: rgb(233, 232, 232); */
+  height: 80vh;
 }
 
 /* /// */
+
+/* creo que esa seccion four no esta haciendo nada. */
 
 .section-four {
   display: flex;
@@ -119,42 +106,45 @@ padding-top: el margen del container del titulo
 
 /* /// */
 
+/* this is really section four styling */
 .section-five {
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
-  height: 60vh;
-  background-color: lightblue;
+  height: 70vh;
+  background-color: #7510f7;
+}
+/* section four title acomodar */
+.section-five-title {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #7510f7;
+  text-align: center;
+  margin: 0;
+  padding-top: 50px;
+  color: white;
 }
 
 .icon-section-five {
-  /* padding: 20px; */
   margin: 15px;
+  color: white;
 }
 
+/* paragraph section  my perspective on life and work. */
 .p-sm {
   font-size: 11px;
+  font-weight: 600;
   padding: 10px;
-  /* font-family: monserrat; */
+}
+
+.icon-title-section-four {
+  margin-top: 30px;
 }
 
 /* /section 6 // */
 
-/* /section 7 / */
-.section-seven {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  height: 60vh;
-  background-color: lightblue;
-}
-
 /* Parrafo section siete */
-.p-section-seven {
-  max-width: 600px;
-}
 
 /* /// */
 
@@ -181,6 +171,32 @@ p {
   font-size: 2rem;
 }
 
+.section-six-title {
+  font-size: 2rem;
+  color: white;
+}
+
+.p-section-six {
+  color: white;
+  font-weight: 400;
+  max-width: 600px;
+  font-size: 16px;
+}
+
+/* /section 7 / */
+.section-six {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 60vh;
+  background-color: #7510f7;
+}
+
+a {
+  color: #7510f7;
+}
+
 /* subjet to be deleted because - section-one.css*/
 .right-col-img {
   text-align: center;
@@ -191,7 +207,7 @@ p {
 /* paddig-top utilice to center items. */
 
 div.scrollmenu {
-  background-color: lightblue;
+  background-color: #7510f7;
   overflow: auto;
   white-space: nowrap;
   height: 160px;
@@ -237,10 +253,6 @@ div.scrollmenu p {
 
   .right-col-img {
     order: -1;
-  }
-
-  .section-three {
-    height: 90vh;
   }
 
   .section-new {

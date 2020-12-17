@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Navigationbar = () => {
   return (
     <div className="navBar">
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar collapseOnSelect expand="lg" bg="white" variant="light">
         <Navbar.Brand className="logo" as={Link} to="/">
           Scarpantonio
         </Navbar.Brand>
@@ -27,7 +27,3 @@ const Navigationbar = () => {
 };
 
 export default Navigationbar;
-
-// <Nav.Link as={Link} to="/about">
-//               about
-//             </Nav.Link>

@@ -11,34 +11,35 @@ export default function SectionFour() {
       <Container fluid className="section-five">
         <Row>
           <Col sm className="icon-section-five">
-            <AiFillBug className="dev-icons" />
-            <h4>#Problem solving</h4>
+            <AiFillBug className="dev-icons-home-page" />
+            <h4 className="icon-title-section-four">#Problem solving</h4>
 
             <p class="p-sm">
-              Siempre encontraremos problemas sin importar a que nuevos retos te
-              enfrentes. Lo importante es tener la actitud correcta estando
-              consiente que en cada problema hay una oportunidad de aprender.
+              We will always find problems no matter what you do, but in every
+              new challenge, we'll also find an opportunity to learn something
+              new.
             </p>
           </Col>
 
           <Col sm className="icon-section-five">
-            <AiFillHeart className="dev-icons" />
-            <h4>#Teamwork</h4>
+            <AiFillHeart className="dev-icons-home-page" />
+            <h4 className="icon-title-section-four">
+              <strong>#</strong> Teamwork
+            </h4>
             <p class="p-sm">
-              En la busqueda de la oportunidad de trabajar con un equipo de
-              desarrolladores motivados donde todos podemoas compartir nuestro
-              conocimiento.
+              You'll never reach your full potential if you only work isolated
+              without a good and smart team feedback.
             </p>
           </Col>
 
           <Col sm className="icon-section-five">
-            <AiFillTrophy className="dev-icons" />
+            <AiFillTrophy className="dev-icons-home-page" />
 
-            <h4>#Always learning</h4>
+            <h4 className="icon-title-section-four">#Always learning</h4>
             <p class="p-sm">
-              al toparme con una nueva teconologia no pueda esperar en conocer
-              cuales son las nuevas ventajas y como revolucionara la manera en
-              que trabajamos.
+              New technologies are always being release, is always a good
+              practice to be open minded and study the new ways and
+              opportunities that new technology bring to us.
             </p>
           </Col>
         </Row>

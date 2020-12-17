@@ -1,0 +1,22 @@
+.section-six-title {
+  font-size: 2rem;
+  color: white;
+  font-weight: 800;
+}
+
+.p-section-six {
+  color: white;
+  font-weight: 400;
+  max-width: 600px;
+  font-size: 16px;
+}
+
+/* /section 7 / */
+.section-six {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 60vh;
+  background-color: #7510f7;
+}

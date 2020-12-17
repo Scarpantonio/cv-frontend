@@ -1,19 +1,23 @@
 import React from "react";
 import { Form, Button, Container, Col, Row } from "react-bootstrap";
 // import { Form } from "react-bootstrap/Form";
-import "./contact.css";
+import "./Contact-msl.css";
+import { AiFillHeart } from "react-icons/ai";
 // import Navigationbar from "../navbar/navbar";
 
 const Contact = () => {
   return (
     <div>
-      <Container className="contact">
+      <Container className="work">
         <Row>
           <Col>
-            <h1 className="contact-title">
+            <h1 className="work-title">
+              <AiFillHeart className="msl-icons" />
               <strong>
-                Thanks for tacking the time to reach out. How Can I help you
-                today?
+                <p>
+                  Want to help children in Venezuela?
+                  <br /> I'm all in.
+                </p>
               </strong>
             </h1>
           </Col>
@@ -49,7 +53,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-// <Form.Text className="text-muted">
-//                   We'll never share your email with anyone else.
-//                 </Form.Text>

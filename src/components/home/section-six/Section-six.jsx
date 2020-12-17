@@ -1,18 +1,17 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { DiGithubBadge } from "react-icons/di";
+import "./Section-six.css";
 
 export default function SectionSix() {
   return (
-    <Container fluid className="section-seven">
+    <Container fluid className="section-six">
       <Row>
-        <Col className="left-col-title">
+        <Col className="section-six-title">
           <h3>
-            <b>DOWNLOAD MY RESUME</b>
+            <b>Download my resume</b>
           </h3>
-          <p className="p-section-seven">
-            Apps build with React, Hooks, Reduxs, Vue, Angular and Jquery,
-            HTML/CSS Apps build with React, Hooks, Reduxs build with React
+          <p className="p-section-six">
+            I'm full Stack developer open to work in exciting new projects.
           </p>
           <Button>Download now!</Button>
         </Col>

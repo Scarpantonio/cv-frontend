@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { DiGithubBadge } from "react-icons/di";
+import { Link } from "react-router-dom";
 
 export default function SectionFive() {
   return (
@@ -11,10 +12,17 @@ export default function SectionFive() {
             <b>Check My Work On Github!</b>
           </h2>
           <p>
-            He desarrollado aplicaciones con diferentes teconologias entre las
-            princiaples ReactJs y nodeJS{" "}
+            I have develop web apps using different technologies amount the main
+            ReactJs, ExpressJs, MongoDB and NodeJS.
           </p>
-          <Button>Check Work!</Button>
+          <Button
+            bsPrefix="super-btn"
+            href="https://github.com/Scarpantonio"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Check Work!
+          </Button>
         </Col>
 
         <Col sm className="right-col-img">
