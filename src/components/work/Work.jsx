@@ -76,7 +76,15 @@ const Work = () => {
 
         <Card>
           <Card.Body>
-            <Card.Title>MyFlix</Card.Title>
+            <Card.Title>
+              <a
+                href="https://scarpantonio.github.io/quizzes-app/welcome"
+                target="_blank"
+                rel="noreferrer"
+              >
+                MyFlix
+              </a>
+            </Card.Title>
             <Card.Text>
               Myflix is an app featuring different popular movies. Each movie is
               accompanied by information on the movie author, genre and
@@ -103,7 +111,14 @@ const Work = () => {
       >
         <Card>
           <Card.Body>
-            <Card.Title>Todo App</Card.Title>
+            <a
+              href="https://scarpantonio.github.io/vue-todo/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Card.Title>Todo App</Card.Title>
+            </a>
+
             <Card.Text>
               ToDo app made with Vue.js. Consist of a single view where users
               will be able to create, update, complete, and delete ToDo items

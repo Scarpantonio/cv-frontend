@@ -2,10 +2,13 @@
  *
  * [] Desplegar work/contact todo hacia la derecha.
  * [] Center submit button.
+ * [] Connect to mongoose.
+ * [] Email cuando la forma se envie.
  * [] Acomodar Navbar/footer
  * [X] Cambiar los botones de color.
  * [] Agregar animaciones.
  * [] Download my resume deberia estar unido con el footer.
+ * [] PREGUNTAS HEROKU TED: como poder darle a deploy si dividimos ambos el front end y el back end.
  */
 
 import "./App.css";
